@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>校园API登录查询</title>
+</head>
+<body>
+    <h2>校内学生信息查询系统</h2>
+    <form action="/query" method="post">
+        <label>输入验证密钥(CAS):</label>
+        <input type="text" name="cas_token" style="width:600px;" required>
+        <br><br>
+        <button type="submit">查询本人学生信息</button>
+    </form>
+    <p>提示：需要校园WiFi环境才能正常获取数据</p>
+</body>
+</html>
